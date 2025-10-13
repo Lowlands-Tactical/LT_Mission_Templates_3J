@@ -67,7 +67,7 @@ switch (side (_this select 0)) do
 		_handGunAttMuzzle = [""];
 		_handGunAttBipod = [""];
 		_handGunAttScope = [""];
-			// Launcher and ammo variants(optional)
+			// Launcher and ammo variants
 		_launcher = [""];
 		_launcher_Mags = [""];
 			// Launcher AA

@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=13085;
+		nextID=13086;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1379;
+		nextID=1385;
 	};
 	class Camera
 	{
-		pos[]={-46.882774,163.73524,306.84378};
-		dir[]={0.58759403,-0.55073118,-0.59290326};
-		up[]={0.3878499,0.83451116,-0.39135471};
-		aside[]={-0.71031719,-1.559456e-06,-0.70395458};
+		pos[]={-14.544802,149.70743,-16.548786};
+		dir[]={0.50553036,-0.64222288,0.57632953};
+		up[]={0.42366546,0.76629657,0.48300084};
+		aside[]={0.75183493,-1.6311897e-06,-0.65947998};
 	};
 };
 binarizationWanted=0;
@@ -707,7 +707,7 @@ class Mission
 							name="[LT] Base Modules";
 							class Entities
 							{
-								items=19;
+								items=20;
 								class Item0
 								{
 									dataType="Logic";
@@ -2898,7 +2898,7 @@ class Mission
 									dataType="Logic";
 									class PositionInfo
 									{
-										position[]={112,5,256};
+										position[]={62,5,234.5};
 									};
 									id=13081;
 									type="ModuleRespawnPosition_F";
@@ -2939,7 +2939,86 @@ class Mission
 												class data
 												{
 													singleType="STRING";
-													value="-1";
+													value="1";
+												};
+											};
+										};
+										class Attribute3
+										{
+											property="ModuleRespawnPosition_F_ShowNotification";
+											expression="_this setVariable ['ShowNotification',_value,true];";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="1";
+												};
+											};
+										};
+										class Attribute4
+										{
+											property="ModuleRespawnPosition_F_Type";
+											expression="_this setVariable ['Type',_value,true];";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="0";
+												};
+											};
+										};
+										nAttributes=5;
+									};
+								};
+								class Item19
+								{
+									dataType="Logic";
+									class PositionInfo
+									{
+										position[]={158,5,235};
+									};
+									id=13085;
+									type="ModuleRespawnPosition_F";
+									class CustomAttributes
+									{
+										class Attribute0
+										{
+											property="ModuleRespawnPosition_F_Marker";
+											expression="_this setVariable ['Marker',_value,true];";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="0";
+												};
+											};
+										};
+										class Attribute1
+										{
+											property="ModuleRespawnPosition_F_Name";
+											expression="_this setVariable ['Name',_value,true];";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="Base";
+												};
+											};
+										};
+										class Attribute2
+										{
+											property="ModuleRespawnPosition_F_Side";
+											expression="_this setVariable ['Side',_value,true];";
+											class Value
+											{
+												class data
+												{
+													singleType="STRING";
+													value="0";
 												};
 											};
 										};
@@ -3025,7 +3104,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={64,5.0014391,231.05};
+										position[]={62.5,5.0014391,230.05};
 									};
 									side="West";
 									flags=7;
@@ -3113,7 +3192,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={64,5.0014391,229.05};
+										position[]={62.5,5.0014391,228.05};
 									};
 									side="West";
 									flags=5;
@@ -3200,7 +3279,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={66,5.0014391,229.05};
+										position[]={64.5,5.0014391,228.05};
 									};
 									side="West";
 									flags=5;
@@ -3300,7 +3379,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={62,5.0014391,229.05002};
+										position[]={60.5,5.0014391,228.05002};
 									};
 									side="West";
 									flags=5;
@@ -3417,7 +3496,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={60,5.0014391,229.05};
+										position[]={60.5,5.0014391,230.05};
 									};
 									side="West";
 									flags=7;
@@ -3527,7 +3606,7 @@ class Mission
 							side="West";
 							class Entities
 							{
-								items=10;
+								items=8;
 								class Item0
 								{
 									dataType="Object";
@@ -3894,7 +3973,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={64.5,5.0014391,223.05002};
+										position[]={63,5.0014391,223.05};
 									};
 									side="West";
 									flags=5;
@@ -3980,7 +4059,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={66,5.0014391,223.05002};
+										position[]={64.5,5.0014391,223.05};
 									};
 									side="West";
 									flags=4;
@@ -4066,7 +4145,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={66,5.0014391,225.05002};
+										position[]={64.5,5.0014391,225.05};
 									};
 									side="West";
 									flags=5;
@@ -4153,93 +4232,6 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={64.499802,5.0014391,225.05043};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										rank="CORPORAL";
-										description="Rifleman@Alpha 1";
-										isPlayable=1;
-									};
-									id=12781;
-									type="B_Soldier_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="LT_unit_role_ID";
-											expression="_this setVariable ['LT_unit_role',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="rifl";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male11ENG";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1.02;
-												};
-											};
-										};
-										class Attribute3
-										{
-											property="LT_unit_item_ID";
-											expression="_this setVariable ['LT_unit_item',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										class Attribute4
-										{
-											property="LT_unit_gear_ID";
-											expression="_this setVariable ['LT_unit_gear',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										nAttributes=5;
-									};
-								};
-								class Item8
-								{
-									dataType="Object";
-									class PositionInfo
-									{
 										position[]={63,5.0014391,225.05002};
 									};
 									side="West";
@@ -4264,105 +4256,6 @@ class Mission
 												{
 													singleType="STRING";
 													value="eng";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="ace_isEngineer";
-											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=2;
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male06ENG";
-												};
-											};
-										};
-										class Attribute3
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1.02;
-												};
-											};
-										};
-										class Attribute4
-										{
-											property="LT_unit_item_ID";
-											expression="_this setVariable ['LT_unit_item',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										class Attribute5
-										{
-											property="LT_unit_gear_ID";
-											expression="_this setVariable ['LT_unit_gear',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										nAttributes=6;
-									};
-								};
-								class Item9
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={62.999805,5.0014391,223.05045};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										description="Marksman (DMR)@Alpha 1";
-										isPlayable=1;
-									};
-									id=12783;
-									type="B_engineer_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="LT_unit_role_ID";
-											expression="_this setVariable ['LT_unit_role',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="dmr";
 												};
 											};
 										};
@@ -4463,7 +4356,7 @@ class Mission
 							side="West";
 							class Entities
 							{
-								items=10;
+								items=8;
 								class Item0
 								{
 									dataType="Object";
@@ -4830,7 +4723,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={64.5,5.0014391,217.05002};
+										position[]={63,5.0014391,217.05};
 									};
 									side="West";
 									flags=5;
@@ -4916,7 +4809,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={66,5.0014391,217.05002};
+										position[]={64.5,5.0014391,217.05};
 									};
 									side="West";
 									flags=4;
@@ -5002,7 +4895,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={66,5.0014391,219.05002};
+										position[]={64.5,5.0014391,219.05};
 									};
 									side="West";
 									flags=5;
@@ -5089,93 +4982,6 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={64.5,5.0014391,219.05002};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										rank="CORPORAL";
-										description="Rifleman@Bravo 1";
-										isPlayable=1;
-									};
-									id=12817;
-									type="B_Soldier_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="LT_unit_role_ID";
-											expression="_this setVariable ['LT_unit_role',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="rifl";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male11ENG";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1.02;
-												};
-											};
-										};
-										class Attribute3
-										{
-											property="LT_unit_item_ID";
-											expression="_this setVariable ['LT_unit_item',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										class Attribute4
-										{
-											property="LT_unit_gear_ID";
-											expression="_this setVariable ['LT_unit_gear',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										nAttributes=5;
-									};
-								};
-								class Item8
-								{
-									dataType="Object";
-									class PositionInfo
-									{
 										position[]={63,5.0014391,219.05002};
 									};
 									side="West";
@@ -5200,105 +5006,6 @@ class Mission
 												{
 													singleType="STRING";
 													value="eng";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="ace_isEngineer";
-											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=2;
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male06ENG";
-												};
-											};
-										};
-										class Attribute3
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1.02;
-												};
-											};
-										};
-										class Attribute4
-										{
-											property="LT_unit_item_ID";
-											expression="_this setVariable ['LT_unit_item',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										class Attribute5
-										{
-											property="LT_unit_gear_ID";
-											expression="_this setVariable ['LT_unit_gear',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										nAttributes=6;
-									};
-								};
-								class Item9
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={62.999805,5.0014391,217.05045};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										description="Marksman (DMR)@Bravo 1";
-										isPlayable=1;
-									};
-									id=12819;
-									type="B_engineer_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="LT_unit_role_ID";
-											expression="_this setVariable ['LT_unit_role',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="dmr";
 												};
 											};
 										};
@@ -5399,7 +5106,7 @@ class Mission
 							side="West";
 							class Entities
 							{
-								items=10;
+								items=8;
 								class Item0
 								{
 									dataType="Object";
@@ -5766,7 +5473,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={64.5,5.0014391,211.05002};
+										position[]={63,5.0014391,211.05};
 									};
 									side="West";
 									flags=5;
@@ -5852,7 +5559,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={66,5.0014391,211.05002};
+										position[]={64.5,5.0014391,211.05};
 									};
 									side="West";
 									flags=4;
@@ -5938,7 +5645,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={66,5.0014391,213.05002};
+										position[]={64.5,5.0014391,213.05};
 									};
 									side="West";
 									flags=5;
@@ -6025,93 +5732,6 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={64.5,5.0014391,213.05002};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										rank="CORPORAL";
-										description="Rifleman@Charlie 1";
-										isPlayable=1;
-									};
-									id=12853;
-									type="B_Soldier_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="LT_unit_role_ID";
-											expression="_this setVariable ['LT_unit_role',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="rifl";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male11ENG";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1.02;
-												};
-											};
-										};
-										class Attribute3
-										{
-											property="LT_unit_item_ID";
-											expression="_this setVariable ['LT_unit_item',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										class Attribute4
-										{
-											property="LT_unit_gear_ID";
-											expression="_this setVariable ['LT_unit_gear',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										nAttributes=5;
-									};
-								};
-								class Item8
-								{
-									dataType="Object";
-									class PositionInfo
-									{
 										position[]={63,5.0014391,213.05002};
 									};
 									side="West";
@@ -6136,105 +5756,6 @@ class Mission
 												{
 													singleType="STRING";
 													value="eng";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="ace_isEngineer";
-											expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=2;
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male06ENG";
-												};
-											};
-										};
-										class Attribute3
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1.02;
-												};
-											};
-										};
-										class Attribute4
-										{
-											property="LT_unit_item_ID";
-											expression="_this setVariable ['LT_unit_item',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										class Attribute5
-										{
-											property="LT_unit_gear_ID";
-											expression="_this setVariable ['LT_unit_gear',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=1;
-												};
-											};
-										};
-										nAttributes=6;
-									};
-								};
-								class Item9
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={62.999805,5.0014391,211.05045};
-									};
-									side="West";
-									flags=5;
-									class Attributes
-									{
-										description="Marksman (DMR)@Charlie 1";
-										isPlayable=1;
-									};
-									id=12855;
-									type="B_engineer_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="LT_unit_role_ID";
-											expression="_this setVariable ['LT_unit_role',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="dmr";
 												};
 											};
 										};
@@ -11337,7 +10858,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={160,5.0014391,231.05};
+										position[]={158.5,5.0014391,231.05};
 									};
 									side="East";
 									flags=7;
@@ -11398,7 +10919,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={160,5.0014391,229.05};
+										position[]={158.5,5.0014391,229.05};
 									};
 									side="East";
 									flags=5;
@@ -11459,7 +10980,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={162.0002,5.0014391,229.04961};
+										position[]={160.5002,5.0014391,229.04961};
 									};
 									side="East";
 									flags=5;
@@ -11520,7 +11041,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={158,5.0014391,229.05002};
+										position[]={156.5,5.0014391,229.05002};
 									};
 									side="East";
 									flags=5;
@@ -11611,7 +11132,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={156,5.0014391,229.05};
+										position[]={156.5,5.0014391,231.05};
 									};
 									side="East";
 									flags=7;
@@ -11695,7 +11216,7 @@ class Mission
 							side="East";
 							class Entities
 							{
-								items=10;
+								items=8;
 								class Item0
 								{
 									dataType="Object";
@@ -11944,7 +11465,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={160.5,5.0014391,223.05002};
+										position[]={159,5.0014391,223.05};
 									};
 									side="East";
 									flags=5;
@@ -12004,7 +11525,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={162,5.0014391,223.05002};
+										position[]={160.5,5.0014391,223.05};
 									};
 									side="East";
 									flags=5;
@@ -12064,7 +11585,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={162,5.0014391,225.05002};
+										position[]={160.5,5.0014391,225.05};
 									};
 									side="East";
 									flags=5;
@@ -12125,67 +11646,6 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={160.5,5.0014391,225.05002};
-									};
-									side="East";
-									flags=5;
-									class Attributes
-									{
-										rank="CORPORAL";
-										description="Rifleman@Alpha 1";
-										isPlayable=1;
-									};
-									id=12940;
-									type="O_Soldier_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="LT_unit_role_ID";
-											expression="_this setVariable ['LT_unit_role',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="rifl";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male03PER";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.98000002;
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
-								class Item8
-								{
-									dataType="Object";
-									class PositionInfo
-									{
 										position[]={159,5.0014391,225.05002};
 									};
 									side="East";
@@ -12242,66 +11702,6 @@ class Mission
 										nAttributes=3;
 									};
 								};
-								class Item9
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={158.9998,5.0014391,223.05045};
-									};
-									side="East";
-									flags=5;
-									class Attributes
-									{
-										description="Marksman (DMR)@Alpha 1";
-										isPlayable=1;
-									};
-									id=12942;
-									type="O_engineer_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="LT_unit_role_ID";
-											expression="_this setVariable ['LT_unit_role',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="dmr";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male01PER";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.98000002;
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
 							};
 							class Attributes
 							{
@@ -12331,7 +11731,7 @@ class Mission
 							side="East";
 							class Entities
 							{
-								items=10;
+								items=8;
 								class Item0
 								{
 									dataType="Object";
@@ -12580,7 +11980,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={160.5,5.0014391,217.05002};
+										position[]={159,5.0014391,217.05};
 									};
 									side="East";
 									flags=5;
@@ -12640,7 +12040,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={162,5.0014391,217.05002};
+										position[]={160.5,5.0014391,217.05};
 									};
 									side="East";
 									flags=5;
@@ -12700,7 +12100,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={162,5.0014391,219.05002};
+										position[]={160.5,5.0014391,219.05};
 									};
 									side="East";
 									flags=5;
@@ -12761,67 +12161,6 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={160.5,5.0014391,219.05002};
-									};
-									side="East";
-									flags=5;
-									class Attributes
-									{
-										rank="CORPORAL";
-										description="Rifleman@Bravo 1";
-										isPlayable=1;
-									};
-									id=12976;
-									type="O_Soldier_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="LT_unit_role_ID";
-											expression="_this setVariable ['LT_unit_role',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="rifl";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male03PER";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.98000002;
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
-								class Item8
-								{
-									dataType="Object";
-									class PositionInfo
-									{
 										position[]={159,5.0014391,219.05002};
 									};
 									side="East";
@@ -12878,66 +12217,6 @@ class Mission
 										nAttributes=3;
 									};
 								};
-								class Item9
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={158.9998,5.0014391,217.05045};
-									};
-									side="East";
-									flags=5;
-									class Attributes
-									{
-										description="Marksman (DMR)@Bravo 1";
-										isPlayable=1;
-									};
-									id=12978;
-									type="O_engineer_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="LT_unit_role_ID";
-											expression="_this setVariable ['LT_unit_role',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="dmr";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male01PER";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.98000002;
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
 							};
 							class Attributes
 							{
@@ -12967,7 +12246,7 @@ class Mission
 							side="East";
 							class Entities
 							{
-								items=10;
+								items=8;
 								class Item0
 								{
 									dataType="Object";
@@ -13216,7 +12495,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={160.5,5.0014391,211.05002};
+										position[]={159,5.0014391,211.05};
 									};
 									side="East";
 									flags=5;
@@ -13276,7 +12555,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={162,5.0014391,211.05002};
+										position[]={160.5,5.0014391,211.05};
 									};
 									side="East";
 									flags=5;
@@ -13336,7 +12615,7 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={162,5.0014391,213.05002};
+										position[]={160.5,5.0014391,213.05};
 									};
 									side="East";
 									flags=5;
@@ -13397,67 +12676,6 @@ class Mission
 									dataType="Object";
 									class PositionInfo
 									{
-										position[]={160.5,5.0014391,213.05002};
-									};
-									side="East";
-									flags=5;
-									class Attributes
-									{
-										rank="CORPORAL";
-										description="Rifleman@Charlie 1";
-										isPlayable=1;
-									};
-									id=13012;
-									type="O_Soldier_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="LT_unit_role_ID";
-											expression="_this setVariable ['LT_unit_role',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="rifl";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male03PER";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.98000002;
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
-								class Item8
-								{
-									dataType="Object";
-									class PositionInfo
-									{
 										position[]={159,5.0014391,213.05002};
 									};
 									side="East";
@@ -13495,66 +12713,6 @@ class Mission
 												{
 													singleType="STRING";
 													value="Male02PER";
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.98000002;
-												};
-											};
-										};
-										nAttributes=3;
-									};
-								};
-								class Item9
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={158.9998,5.0014391,211.05045};
-									};
-									side="East";
-									flags=5;
-									class Attributes
-									{
-										description="Marksman (DMR)@Charlie 1";
-										isPlayable=1;
-									};
-									id=13014;
-									type="O_engineer_F";
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="LT_unit_role_ID";
-											expression="_this setVariable ['LT_unit_role',_value,true];";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="dmr";
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male01PER";
 												};
 											};
 										};
