@@ -34,7 +34,6 @@ switch (side (_this select 0)) do
 			// Grenadier ammo(HE/SmokeWhite/SmokeGreen/SmokeRed) normal and IR variant
 		_itemsGL = ["","","",""];
 		_itemsGLNVG = ["","","",""];
-		_itemsGLAmt	= [8,6,4,4];
 			// DMR [Designated marksmen rifle (NO SNIPER)] weapon ammo and attachtments
 		_rifleMark = [""];
 		_rifleMark_Mags = "";
@@ -70,14 +69,6 @@ switch (side (_this select 0)) do
 			// Launcher and ammo variants
 		_launcher = [""];
 		_launcher_Mags = [""];
-			// Launcher AA
-		_launcherAA = [""];
-		_launcherAA_Mags = [""];
-			// Heavy Machine Gun
-		_heavyAR = [""];
-		_heavyAR_Mags = "";
-			// Binocular
-		_binocular = [""];
 	};
 	case east:
 	{
@@ -100,7 +91,6 @@ switch (side (_this select 0)) do
 			// Grenadier ammo(HE/SmokeWhite/SmokeGreen/SmokeRed) normal and IR variant
 		_itemsGL = ["","","",""];
 		_itemsGLNVG = ["","","",""];
-		_itemsGLAmt	= [8,6,4,4];
 			// DMR [Designated marksmen rifle (NO SNIPER)] weapon ammo and attachtments
 		_rifleMark = [""];
 		_rifleMark_Mags = "";
@@ -136,14 +126,6 @@ switch (side (_this select 0)) do
 			// Launcher and ammo variants(optional)
 		_launcher = [""];
 		_launcher_Mags = [""];
-			// Launcher AA
-		_launcherAA = [""];
-		_launcherAA_Mags = [""];
-			// Heavy Machine Gun
-		_heavyAR = [""];
-		_heavyAR_Mags = "";
-			// Binocular
-		_binocular = [""];
 	};
 	case resistance:
 	{
@@ -166,7 +148,6 @@ switch (side (_this select 0)) do
 			// Grenadier ammo(HE/SmokeWhite/SmokeGreen/SmokeRed) normal and IR variant
 		_itemsGL = ["","","",""];
 		_itemsGLNVG = ["","","",""];
-		_itemsGLAmt	= [8,6,4,4];
 			// DMR [Designated marksmen rifle (NO SNIPER)] weapon ammo and attachtments
 		_rifleMark = [""];
 		_rifleMark_Mags = "";
@@ -202,14 +183,6 @@ switch (side (_this select 0)) do
 			// Launcher and ammo variants(optional)
 		_launcher = [""];
 		_launcher_Mags = [""];
-			// Launcher AA
-		_launcherAA = [""];
-		_launcherAA_Mags = [""];
-			// Heavy Machine Gun
-		_heavyAR = [""];
-		_heavyAR_Mags = "";
-			// Binocular
-		_binocular = [""];
 	};
 };
 
