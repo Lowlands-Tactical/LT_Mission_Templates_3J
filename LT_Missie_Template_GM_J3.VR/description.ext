@@ -1,0 +1,53 @@
+/*
+
+File: description.ext
+Author: Brainless_Ben
+
+Description:
+Om de default waardes van de paramers aan te passen kunnen de cijfers van #defines hieronder aangepast worden.
+Waar elke cijfer naar refereed is te vinden in de (Lowlands Tactical - Database - Openbare) te vinden in het database_link kanaal op discord.
+
+*/
+
+// Pre defined names to change params
+#define BLUE_GEAR 0
+#define BLUE_WEAPON 0
+#define RED_GEAR 0
+#define RED_WEAPON 0
+// NO GREEN_GEAR
+// NO GREN_WEAPON
+#define SHORT_RADIO 0
+#define LONG_RADIO 1
+#define GEAR_NVG 0
+#define WEAPON_ATT 9
+#define WEAPON_SCOPE 0
+#define MISSION_TIMER 10
+
+// PARAMETERS
+class Params
+{
+	#if __has_include("\lt_template_base\Reference\descriptionMission.hpp")
+		#include "\lt_template_base\Reference\descriptionMission.hpp"
+	#endif
+	#if __has_include("\lt_template_gear\Loadout_GM\paramsGM.hpp")
+		#include "\lt_template_gear\Loadout_GM\paramsGM.hpp"
+	#endif
+	class lt_Empty_03 
+	{
+		title = "========== Custom setting ==========";
+		values[] = {0};
+		texts[] = {"========== Custom setting =========="};
+		default = 0;
+	};
+	/*class lt_custom_01
+	{
+		title = "NAME IN PARAMETER";
+		values[] = {0,1};
+		texts[] = {"TEXT FOR VALUE 0","TEXT FOR VALUE 1"};
+		default = 0;
+	};*/
+};
+
+#if __has_include("\lt_template_base\Reference\descriptionTemplate.hpp")
+	#include "\lt_template_base\Reference\descriptionTemplate.hpp"
+#endif
