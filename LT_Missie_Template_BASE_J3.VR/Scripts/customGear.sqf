@@ -11,9 +11,9 @@ Reset player weapons set from mission parameters
 //=====================================================================================
 
 // Define clothing that will be used
-switch (side (_this select 0)) do 
+switch (_x) do 
 {
-	case west:
+	case "WEST":
 	{
 		// Bluefor Gear
 			// Default gear
@@ -45,7 +45,7 @@ switch (side (_this select 0)) do
 		_backpackMedic = [""];
 		_backpackRadio = [""];
 	};
-	case east:
+	case "EAST":
 	{
 		// Opfor Gear
 			// Default gear
@@ -77,7 +77,7 @@ switch (side (_this select 0)) do
 		_backpackMedic = [""];
 		_backpackRadio = [""];
 	};
-	case resistance:
+	case "GUER":
 	{
 		// Independent Gear
 			// Default gear

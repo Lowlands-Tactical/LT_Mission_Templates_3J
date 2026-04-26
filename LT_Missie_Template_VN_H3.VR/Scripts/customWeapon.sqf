@@ -11,9 +11,9 @@ Reset player weapons set from mission parameters
 //=====================================================================================
 
 // Define type of weapons to use
-switch (side (_this select 0)) do 
+switch (_x) do 
 {
-	case west:
+	case "WEST":
 	{
 		// Bluefor Weapons
 			// Default Weapon(GL) and ammo(tracer)
@@ -70,7 +70,7 @@ switch (side (_this select 0)) do
 		_launcher = [""];
 		_launcher_Mags = [""];
 	};
-	case east:
+	case "EAST":
 	{
 		// Opfor Weapons
 			// Default Weapon(GL) and ammo(tracer)
@@ -127,7 +127,7 @@ switch (side (_this select 0)) do
 		_launcher = [""];
 		_launcher_Mags = [""];
 	};
-	case resistance:
+	case "GUER":
 	{
 		// Independent Weapons
 			// Default Weapon(GL) and ammo(tracer)
