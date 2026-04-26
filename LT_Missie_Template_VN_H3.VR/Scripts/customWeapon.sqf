@@ -69,6 +69,16 @@ switch (_x) do
 			// Launcher and ammo variants
 		_launcher = [""];
 		_launcher_Mags = [""];
+
+			// Optioneel: launcherAA/ MMG/ MAT
+		_launcherAA = "";
+		_launcherAA_Mags = "";
+
+		_mmg = "";
+		_mmg_Mag = "";
+
+		_mat = "";
+		_mat_Mags = [""];
 	};
 	case "EAST":
 	{
@@ -126,6 +136,16 @@ switch (_x) do
 			// Launcher and ammo variants(optional)
 		_launcher = [""];
 		_launcher_Mags = [""];
+
+			// Optioneel: launcherAA/ MMG/ MAT
+		_launcherAA = "";
+		_launcherAA_Mags = "";
+
+		_mmg = "";
+		_mmg_Mag = "";
+
+		_mat = "";
+		_mat_Mags = [""];
 	};
 	case "GUER":
 	{
@@ -183,6 +203,16 @@ switch (_x) do
 			// Launcher and ammo variants(optional)
 		_launcher = [""];
 		_launcher_Mags = [""];
+
+			// Optioneel: launcherAA/ MMG/ MAT
+		_launcherAA = "";
+		_launcherAA_Mags = "";
+
+		_mmg = "";
+		_mmg_Mag = "";
+
+		_mat = "";
+		_mat_Mags = [""];
 	};
 };
 
