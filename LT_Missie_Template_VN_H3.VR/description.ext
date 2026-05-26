@@ -16,7 +16,7 @@ Waar elke cijfer naar refereed is te vinden in de (Lowlands Tactical - Database 
 #define RED_WEAPON 0
 #define GREEN_GEAR 18
 #define GREEN_WEAPON 6
-// NO SHORT RANGE
+#define SHORT_RADIO 0
 #define LONG_RADIO 1
 #define GEAR_NVG 0
 #define WEAPON_ATT 9
