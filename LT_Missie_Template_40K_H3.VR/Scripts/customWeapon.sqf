@@ -76,6 +76,7 @@ switch (_x) do
 
 		_mmg = "";
 		_mmg_Mag = "";
+		_mmg_Scope = "";
 
 		_mat = "";
 		_mat_Mags = [""];
@@ -143,6 +144,7 @@ switch (_x) do
 
 		_mmg = "";
 		_mmg_Mag = "";
+		_mmg_Scope = "";
 
 		_mat = "";
 		_mat_Mags = [""];
@@ -210,6 +212,7 @@ switch (_x) do
 
 		_mmg = "";
 		_mmg_Mag = "";
+		_mmg_Scope = "";
 
 		_mat = "";
 		_mat_Mags = [""];
