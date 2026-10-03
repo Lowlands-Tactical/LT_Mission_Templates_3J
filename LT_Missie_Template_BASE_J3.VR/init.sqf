@@ -1,3 +1,6 @@
+// Include custom briefing
+[] execVM "Scripts\customBriefing.sqf";
+
 // MAKE SURE THE PLAYER INITIALIZES PROPERLY
 if (!isDedicated && player != player) then {
     waitUntil {player == player && time > 0.3};

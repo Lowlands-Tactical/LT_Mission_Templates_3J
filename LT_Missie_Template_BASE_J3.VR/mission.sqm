@@ -20,21 +20,20 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1520;
+		nextID=1541;
 	};
 	class Camera
 	{
-		pos[]={-0.79728305,53.917152,291.99847};
-		dir[]={0.71366483,-0.34449592,-0.61004239};
-		up[]={0.26191363,0.93876082,-0.22388366};
-		aside[]={-0.64981055,-1.232911e-07,-0.76019496};
+		pos[]={-48.926823,124.84393,-48.763836};
+		dir[]={0.6048677,-0.58915091,0.53594953};
+		up[]={0.44099706,0.80797386,0.39075258};
+		aside[]={0.66325295,-1.5122387e-06,-0.74853539};
 	};
 };
 binarizationWanted=0;
 sourceName="LT_Missie_Template_BASE_J3";
 addons[]=
 {
-	"A3_Modules_F_Intel",
 	"fenais_modules",
 	"A3_Modules_F_Curator_Curator",
 	"alive_main",
@@ -56,7 +55,6 @@ addons[]=
 	"NAF_Weapons_Ammoboxes",
 	"A3_Characters_F",
 	"A3_Aegis_Characters_F_Aegis",
-	"ace_explosives",
 	"A3_Characters_F_Mark",
 	"ace_gforces",
 	"ace_parachute",
@@ -86,50 +84,50 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=37;
+		items=36;
 		class Item0
-		{
-			className="A3_Modules_F";
-			name="Arma 3 Alpha - Scripted Modules";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item1
 		{
 			className="fenAIS_modules";
 			name="Fen AIS Modules";
 			author="Fen";
 		};
-		class Item2
+		class Item1
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item3
+		class Item2
 		{
 			className="ALiVE_main";
 			name="alive_main";
 			author="ALiVE Mod Team";
 		};
-		class Item4
+		class Item3
 		{
 			className="ALiVE_sys_data";
 			name="alive_sys_data";
 			author="ALiVE Mod Team";
 		};
-		class Item5
+		class Item4
 		{
 			className="ALiVE_SYS_playeroptions";
 			name="alive_sys_playeroptions";
 			author="ALiVE Mod Team";
 		};
-		class Item6
+		class Item5
 		{
 			className="ALiVE_sys_profile";
 			name="alive_sys_profile";
 			author="ALiVE Mod Team";
+		};
+		class Item6
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 		class Item7
 		{
@@ -210,124 +208,117 @@ class AddonsMetaData
 		};
 		class Item19
 		{
-			className="ace_explosives";
-			name="ACE3 - Explosives";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item20
-		{
 			className="A3_Characters_F_Mark";
 			name="Arma 3 Marksmen - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
+		class Item20
 		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item22
+		class Item21
 		{
 			className="A3_Armor_F_Beta";
 			name="Arma 3 Beta - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item23
+		class Item22
 		{
 			className="A3_Aegis_Armor_F_Aegis";
 			name="Arma 3 Aegis - Armored Land Vehicles";
 			author="Avery Kaiserin";
 			url="https://steamcommunity.com/sharedfiles/filedetails/?id=949252631";
 		};
-		class Item24
+		class Item23
 		{
 			className="acre_sys_intercom";
 			name="ACRE2 - Vehicle Intercom";
 			author="ACRE2Team";
 			url="https://github.com/IDI-Systems/acre2";
 		};
-		class Item25
+		class Item24
 		{
 			className="A3_Soft_F_Gamma";
 			name="Arma 3 - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item26
+		class Item25
 		{
 			className="A3_Aegis_Soft_F_Aegis";
 			name="Arma 3 Aegis - Unarmored Land Vehicles";
 			author="Avery Kaiserin";
 			url="https://steamcommunity.com/sharedfiles/filedetails/?id=949252631";
 		};
-		class Item27
+		class Item26
 		{
 			className="A3_Air_F_Heli";
 			name="Arma 3 Helicopters - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item28
+		class Item27
 		{
 			className="ace_fastroping";
 			name="ACE3 - Fastroping";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item29
+		class Item28
 		{
 			className="A3_Air_F_Beta";
 			name="Arma 3 Beta - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item30
+		class Item29
 		{
 			className="A3_Armor_F_Gamma";
 			name="Arma 3 - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item31
+		class Item30
 		{
 			className="ace_vehicle_damage";
 			name="ACE3 - Vehicle Damage";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item32
+		class Item31
 		{
 			className="A3_Air_F_Jets";
 			name="Arma 3 Jets - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item33
+		class Item32
 		{
 			className="ace_repair";
 			name="ACE3 - Repair";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item34
+		class Item33
 		{
 			className="A3_Air_F_EPB";
 			name="Arma 3 Adapt Episode - Aircraft";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item35
+		class Item34
 		{
 			className="A3_Armor_F_EPB";
 			name="Arma 3 Adapt Episode - Armored Land Vehicles";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item36
+		class Item35
 		{
 			className="A3_Characters_F_Jets";
 			name="Arma 3 Jets - Characters and Clothing";
@@ -481,197 +472,13 @@ class Mission
 					name="[LT] Template Modules";
 					class Entities
 					{
-						items=7;
+						items=5;
 						class Item0
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4,5,6};
-							};
-							id=0;
-							type="ModuleCreateDiaryRecord_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ModuleCreateDiaryRecord_F_PresetTitle";
-									expression="_this setVariable ['PresetTitle',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Mission";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="ModuleCreateDiaryRecord_F_Title";
-									expression="_this setVariable ['Title',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="ModuleCreateDiaryRecord_F_Description";
-									expression="_this setVariable ['Description',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="<font color=""#FFA500"">MISSIE</font><br/>  " \n "Primaire doelen:<br/> " \n "-  <br/> " \n "<br/> " \n "Secundaire doelen:<br/> " \n "-  <br/>";
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="ModuleCreateDiaryRecord_F_Owner";
-									expression="_this setVariable ['Owner',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=3;
-										};
-									};
-								};
-								class Attribute4
-								{
-									property="ModuleCreateDiaryRecord_F_Subject";
-									expression="_this setVariable ['Subject',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-								};
-								class Attribute5
-								{
-									property="ModuleInfo";
-									expression="false";
-									class Value
-									{
-										class data
-										{
-											singleType="BOOL";
-											value=1;
-										};
-									};
-								};
-								nAttributes=6;
-							};
-						};
-						class Item1
-						{
-							dataType="Logic";
-							class PositionInfo
-							{
-								position[]={2,5,6};
-							};
-							id=1;
-							type="ModuleCreateDiaryRecord_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ModuleCreateDiaryRecord_F_PresetTitle";
-									expression="_this setVariable ['PresetTitle',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Situation";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="ModuleCreateDiaryRecord_F_Title";
-									expression="_this setVariable ['Title',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="ModuleCreateDiaryRecord_F_Description";
-									expression="_this setVariable ['Description',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="<font color=""#FFA500"">SITUATIE</font><br/> " \n "<br/> " \n "Aanleiding:<br/> " \n "- <br/> " \n "<br/> " \n "Vijandelijke groepen:<br/> " \n "- Wie: <br/> " \n "- Aantal: <br/> " \n "- Uitrusting: <br/> " \n "- Voertuigen: <br/> " \n "- Aandachtspunten: <br/> " \n "<br/> " \n "Eigen troepen:<br/> " \n "- Wapensystemen en CAMO: <br/>  " \n "- Voertuigen: <br/> " \n "- Aandachtspunten: <br/> " \n "<br/> " \n "Burgers:<br/> " \n "- <br/> " \n "<br/> " \n "Logistiek:<br/> " \n "- Bevoorrading: <br/>  " \n "- Transport: <br/> " \n "- Ondersteuning: <br/> " \n "<br/> " \n "Radio's:<br/> " \n "- AN-PRC343 (shortrange): Everyone<br/> " \n "- AN-PRC152 (longrange): COM/SQL/VTL<br/> " \n "<br/> " \n "Meteorologie:<br/> " \n "- Weersverwachting: <br/>  " \n "<br/> " \n "Missiegebied:<br/> " \n "- <br/> ";
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="ModuleCreateDiaryRecord_F_Owner";
-									expression="_this setVariable ['Owner',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=3;
-										};
-									};
-								};
-								class Attribute4
-								{
-									property="ModuleCreateDiaryRecord_F_Subject";
-									expression="_this setVariable ['Subject',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-								};
-								class Attribute5
-								{
-									property="ModuleInfo";
-									expression="false";
-									class Value
-									{
-										class data
-										{
-											singleType="BOOL";
-											value=1;
-										};
-									};
-								};
-								nAttributes=6;
-							};
-						};
-						class Item2
-						{
-							dataType="Logic";
-							class PositionInfo
-							{
-								position[]={6,5,6};
+								position[]={6,5,4};
 							};
 							id=2483;
 							type="fenAIS_moduleInit";
@@ -693,12 +500,12 @@ class Mission
 								nAttributes=1;
 							};
 						};
-						class Item3
+						class Item1
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={8,5,6};
+								position[]={8,5,4};
 							};
 							id=2484;
 							type="fenAIS_moduleDefaults";
@@ -713,7 +520,7 @@ class Mission
 										class data
 										{
 											singleType="SCALAR";
-											value=0.13;
+											value=0.029999999;
 										};
 									};
 								};
@@ -798,7 +605,7 @@ class Mission
 								nAttributes=7;
 							};
 						};
-						class Item4
+						class Item2
 						{
 							dataType="Layer";
 							name="[LT] Base Modules";
@@ -1979,8 +1786,8 @@ class Mission
 										};
 										class Attribute2
 										{
-											property="ALiVE_sup_combatsupport_combatsupport_transportrespawnlimit";
-											expression="_this setVariable ['combatsupport_transportrespawnlimit',_value,true];";
+											property="ALiVE_sup_combatsupport_combatsupport_artyrespawnlimit";
+											expression="_this setVariable ['combatsupport_artyrespawnlimit',_value,true];";
 											class Value
 											{
 												class data
@@ -1992,8 +1799,8 @@ class Mission
 										};
 										class Attribute3
 										{
-											property="ALiVE_sup_combatsupport_combatsupport_artyrespawnlimit";
-											expression="_this setVariable ['combatsupport_artyrespawnlimit',_value,true];";
+											property="ALiVE_sup_combatsupport_combatsupport_transportrespawnlimit";
+											expression="_this setVariable ['combatsupport_transportrespawnlimit',_value,true];";
 											class Value
 											{
 												class data
@@ -2504,8 +2311,8 @@ class Mission
 										};
 										class Attribute2
 										{
-											property="ALiVE_sup_combatsupport_combatsupport_transportrespawnlimit";
-											expression="_this setVariable ['combatsupport_transportrespawnlimit',_value,true];";
+											property="ALiVE_sup_combatsupport_combatsupport_artyrespawnlimit";
+											expression="_this setVariable ['combatsupport_artyrespawnlimit',_value,true];";
 											class Value
 											{
 												class data
@@ -2517,8 +2324,8 @@ class Mission
 										};
 										class Attribute3
 										{
-											property="ALiVE_sup_combatsupport_combatsupport_artyrespawnlimit";
-											expression="_this setVariable ['combatsupport_artyrespawnlimit',_value,true];";
+											property="ALiVE_sup_combatsupport_combatsupport_transportrespawnlimit";
+											expression="_this setVariable ['combatsupport_transportrespawnlimit',_value,true];";
 											class Value
 											{
 												class data
@@ -3029,8 +2836,8 @@ class Mission
 										};
 										class Attribute2
 										{
-											property="ALiVE_sup_combatsupport_combatsupport_transportrespawnlimit";
-											expression="_this setVariable ['combatsupport_transportrespawnlimit',_value,true];";
+											property="ALiVE_sup_combatsupport_combatsupport_artyrespawnlimit";
+											expression="_this setVariable ['combatsupport_artyrespawnlimit',_value,true];";
 											class Value
 											{
 												class data
@@ -3042,8 +2849,8 @@ class Mission
 										};
 										class Attribute3
 										{
-											property="ALiVE_sup_combatsupport_combatsupport_artyrespawnlimit";
-											expression="_this setVariable ['combatsupport_artyrespawnlimit',_value,true];";
+											property="ALiVE_sup_combatsupport_combatsupport_transportrespawnlimit";
+											expression="_this setVariable ['combatsupport_transportrespawnlimit',_value,true];";
 											class Value
 											{
 												class data
@@ -3755,7 +3562,7 @@ class Mission
 							};
 							id=8216;
 						};
-						class Item5
+						class Item3
 						{
 							dataType="Marker";
 							position[]={160,5,304};
@@ -3764,7 +3571,7 @@ class Mission
 							type="flag_LT";
 							id=12188;
 						};
-						class Item6
+						class Item4
 						{
 							dataType="Layer";
 							name="[LT] Markers";

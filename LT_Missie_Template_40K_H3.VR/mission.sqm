@@ -21,21 +21,20 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1436;
+		nextID=1443;
 	};
 	class Camera
 	{
-		pos[]={-29.722439,166.19817,-60.588684};
-		dir[]={0.52050948,-0.57437223,0.63199055};
-		up[]={0.36526281,0.81842649,0.4434959};
-		aside[]={0.77197427,-1.6448066e-06,-0.63580394};
+		pos[]={-56.499935,136.26054,-52.940384};
+		dir[]={0.5858165,-0.57396275,0.5723902};
+		up[]={0.41065514,0.81871426,0.40124637};
+		aside[]={0.69892812,-1.4106081e-06,-0.71532381};
 	};
 };
 binarizationWanted=0;
-sourceName="LT_Missie_Template_40K_H3";
+sourceName="LT_Missie_Template_40K_J3";
 addons[]=
 {
-	"A3_Modules_F_Intel",
 	"fenais_modules",
 	"A3_Modules_F_Curator_Curator",
 	"alive_main",
@@ -50,10 +49,16 @@ addons[]=
 	"alive_sup_transport",
 	"A3_Modules_F_Multiplayer",
 	"A3_Ui_F",
+	"M2_Flamethrower_Balloons",
+	"40k_map_markers",
 	"A3_Characters_F",
-	"ace_explosives",
 	"ace_gforces",
 	"ace_parachute",
+	"ML700_Avengers",
+	"ML700_Chimera",
+	"ML700_Leman_Russ",
+	"ML700_Vehicles_Taurox",
+	"ML700_Vehicles_Valkyrie",
 	"A3_Armor_F_Beta_APC_Tracked_02",
 	"ace_realisticnames",
 	"acre_sys_intercom",
@@ -70,63 +75,56 @@ addons[]=
 	"A3_Armor_F_EPB_APC_Tracked_03",
 	"A3_Air_F_Jets_Plane_Fighter_04",
 	"A3_Armor_F_EPB_MBT_03",
-	"A3_Characters_F_Jets",
-	"ML700_Chimera",
-	"ML700_Leman_Russ",
-	"M2_Flamethrower_Balloons",
-	"ML700_Vehicles_Valkyrie",
-	"ML700_Avengers",
-	"ML700_Vehicles_Taurox",
-	"40k_map_markers"
+	"A3_Characters_F_Jets"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=35;
+		items=34;
 		class Item0
-		{
-			className="A3_Modules_F";
-			name="Arma 3 Alpha - Scripted Modules";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item1
 		{
 			className="fenAIS_modules";
 			name="Fen AIS Modules";
 			author="Fen";
 		};
-		class Item2
+		class Item1
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item3
+		class Item2
 		{
 			className="ALiVE_main";
 			name="alive_main";
 			author="ALiVE Mod Team";
 		};
-		class Item4
+		class Item3
 		{
 			className="ALiVE_sys_data";
 			name="alive_sys_data";
 			author="ALiVE Mod Team";
 		};
-		class Item5
+		class Item4
 		{
 			className="ALiVE_SYS_playeroptions";
 			name="alive_sys_playeroptions";
 			author="ALiVE Mod Team";
 		};
-		class Item6
+		class Item5
 		{
 			className="ALiVE_sys_profile";
 			name="alive_sys_profile";
 			author="ALiVE Mod Team";
+		};
+		class Item6
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 		class Item7
 		{
@@ -161,161 +159,154 @@ class AddonsMetaData
 		};
 		class Item12
 		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item13
-		{
-			className="ace_explosives";
-			name="ACE3 - Explosives";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item14
-		{
-			className="ace_parachute";
-			name="ACE3 - Parachute";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item15
-		{
-			className="A3_Armor_F_Beta";
-			name="Arma 3 Beta - Armored Land Vehicles";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item16
-		{
-			className="acre_sys_intercom";
-			name="ACRE2 - Vehicle Intercom";
-			author="ACRE2Team";
-			url="https://github.com/IDI-Systems/acre2";
-		};
-		class Item17
-		{
-			className="A3_Soft_F_Gamma";
-			name="Arma 3 - Unarmored Land Vehicles";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item18
-		{
-			className="A3_Air_F_Heli";
-			name="Arma 3 Helicopters - Aircraft";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item19
-		{
-			className="ace_fastroping";
-			name="ACE3 - Fastroping";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item20
-		{
-			className="A3_Air_F_Beta";
-			name="Arma 3 Beta - Aircraft";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item21
-		{
-			className="A3_Armor_F_Gamma";
-			name="Arma 3 - Armored Land Vehicles";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item22
-		{
-			className="ace_vehicle_damage";
-			name="ACE3 - Vehicle Damage";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item23
-		{
-			className="A3_Air_F_Jets";
-			name="Arma 3 Jets - Aircraft";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item24
-		{
-			className="ace_repair";
-			name="ACE3 - Repair";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item25
-		{
-			className="A3_Air_F_EPB";
-			name="Arma 3 Adapt Episode - Aircraft";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item26
-		{
-			className="A3_Armor_F_EPB";
-			name="Arma 3 Adapt Episode - Armored Land Vehicles";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item27
-		{
-			className="A3_Characters_F_Jets";
-			name="Arma 3 Jets - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item28
-		{
-			className="ML700_Chimera";
-			name="ML700_Chimera";
-		};
-		class Item29
-		{
-			className="ML700_Leman_Russ";
-			name="ML700_Leman_Russ";
-		};
-		class Item30
-		{
 			className="M2_Flamethrower_Balloons";
 			name="M2_Flamethrower_Balloons";
 			author="PhoenixSystems";
 		};
-		class Item31
-		{
-			className="ML700_Vehicles_Valkyrie";
-			name="ML700_Vehicles_Valkyrie";
-		};
-		class Item32
-		{
-			className="ML700_Avengers";
-			name="ML700_Avengers";
-		};
-		class Item33
-		{
-			className="ML700_Vehicles_Taurox";
-			name="ML700_Vehicles_Taurox";
-		};
-		class Item34
+		class Item13
 		{
 			className="40k_map_markers";
 			name="40k_map_markers";
 			author="Reeveli";
 			url="https://www.youtube.com/@Reeveli";
 		};
+		class Item14
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item15
+		{
+			className="ace_parachute";
+			name="ACE3 - Parachute";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item16
+		{
+			className="ML700_Avengers";
+			name="ML700_Avengers";
+		};
+		class Item17
+		{
+			className="ML700_Chimera";
+			name="ML700_Chimera";
+		};
+		class Item18
+		{
+			className="ML700_Leman_Russ";
+			name="ML700_Leman_Russ";
+		};
+		class Item19
+		{
+			className="ML700_Vehicles_Taurox";
+			name="ML700_Vehicles_Taurox";
+		};
+		class Item20
+		{
+			className="ML700_Vehicles_Valkyrie";
+			name="ML700_Vehicles_Valkyrie";
+		};
+		class Item21
+		{
+			className="A3_Armor_F_Beta";
+			name="Arma 3 Beta - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item22
+		{
+			className="acre_sys_intercom";
+			name="ACRE2 - Vehicle Intercom";
+			author="ACRE2Team";
+			url="https://github.com/IDI-Systems/acre2";
+		};
+		class Item23
+		{
+			className="A3_Soft_F_Gamma";
+			name="Arma 3 - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item24
+		{
+			className="A3_Air_F_Heli";
+			name="Arma 3 Helicopters - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item25
+		{
+			className="ace_fastroping";
+			name="ACE3 - Fastroping";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item26
+		{
+			className="A3_Air_F_Beta";
+			name="Arma 3 Beta - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item27
+		{
+			className="A3_Armor_F_Gamma";
+			name="Arma 3 - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item28
+		{
+			className="ace_vehicle_damage";
+			name="ACE3 - Vehicle Damage";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item29
+		{
+			className="A3_Air_F_Jets";
+			name="Arma 3 Jets - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item30
+		{
+			className="ace_repair";
+			name="ACE3 - Repair";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item31
+		{
+			className="A3_Air_F_EPB";
+			name="Arma 3 Adapt Episode - Aircraft";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item32
+		{
+			className="A3_Armor_F_EPB";
+			name="Arma 3 Adapt Episode - Armored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item33
+		{
+			className="A3_Characters_F_Jets";
+			name="Arma 3 Jets - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 dlcs[]=
 {
+	"ML700",
 	"Heli",
-	"Jets",
-	"ML700"
+	"Jets"
 };
 randomSeed=14961178;
 class ScenarioData
@@ -340,7 +331,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -369,7 +360,7 @@ class CustomAttributes
 		};
 		nAttributes=1;
 	};
-	class Category1
+	class Category2
 	{
 		name="Scenario";
 		class Attribute0
@@ -440,7 +431,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=17;
+		items=1;
 		class Item0
 		{
 			dataType="Layer";
@@ -454,197 +445,13 @@ class Mission
 					name="[LT] Template Modules";
 					class Entities
 					{
-						items=6;
+						items=4;
 						class Item0
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={4,5,6};
-							};
-							id=0;
-							type="ModuleCreateDiaryRecord_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ModuleCreateDiaryRecord_F_PresetTitle";
-									expression="_this setVariable ['PresetTitle',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Mission";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="ModuleCreateDiaryRecord_F_Title";
-									expression="_this setVariable ['Title',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="ModuleCreateDiaryRecord_F_Description";
-									expression="_this setVariable ['Description',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="<font color=""#FFA500"">MISSIE</font><br/>  " \n "Primaire doelen:<br/> " \n "-  <br/> " \n "<br/> " \n "Secundaire doelen:<br/> " \n "-  <br/>";
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="ModuleCreateDiaryRecord_F_Owner";
-									expression="_this setVariable ['Owner',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=3;
-										};
-									};
-								};
-								class Attribute4
-								{
-									property="ModuleCreateDiaryRecord_F_Subject";
-									expression="_this setVariable ['Subject',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-								};
-								class Attribute5
-								{
-									property="ModuleInfo";
-									expression="false";
-									class Value
-									{
-										class data
-										{
-											singleType="BOOL";
-											value=1;
-										};
-									};
-								};
-								nAttributes=6;
-							};
-						};
-						class Item1
-						{
-							dataType="Logic";
-							class PositionInfo
-							{
-								position[]={2,5,6};
-							};
-							id=1;
-							type="ModuleCreateDiaryRecord_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ModuleCreateDiaryRecord_F_PresetTitle";
-									expression="_this setVariable ['PresetTitle',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Situation";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="ModuleCreateDiaryRecord_F_Title";
-									expression="_this setVariable ['Title',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="ModuleCreateDiaryRecord_F_Description";
-									expression="_this setVariable ['Description',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="<font color=""#FFA500"">SITUATIE</font><br/> " \n "<br/> " \n "Aanleiding:<br/> " \n "- <br/> " \n "<br/> " \n "Vijandelijke groepen:<br/> " \n "- Wie: <br/> " \n "- Aantal: <br/> " \n "- Uitrusting: <br/> " \n "- Voertuigen: <br/> " \n "- Aandachtspunten: <br/> " \n "<br/> " \n "Eigen troepen:<br/> " \n "- Wapensystemen en CAMO: <br/>  " \n "- Voertuigen: <br/> " \n "- Aandachtspunten: <br/> " \n "<br/> " \n "Burgers:<br/> " \n "- <br/> " \n "<br/> " \n "Logistiek:<br/> " \n "- Bevoorrading: <br/>  " \n "- Transport: <br/> " \n "- Ondersteuning: <br/> " \n "<br/> " \n "Radio's:<br/> " \n "- AN-PRC343 (shortrange): Everyone<br/> " \n "- AN-PRC152 (longrange): COM/SQL/VTL<br/> " \n "<br/> " \n "Meteorologie:<br/> " \n "- Weersverwachting: <br/>  " \n "<br/> " \n "Missiegebied:<br/> " \n "- <br/> ";
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="ModuleCreateDiaryRecord_F_Owner";
-									expression="_this setVariable ['Owner',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=3;
-										};
-									};
-								};
-								class Attribute4
-								{
-									property="ModuleCreateDiaryRecord_F_Subject";
-									expression="_this setVariable ['Subject',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-								};
-								class Attribute5
-								{
-									property="ModuleInfo";
-									expression="false";
-									class Value
-									{
-										class data
-										{
-											singleType="BOOL";
-											value=1;
-										};
-									};
-								};
-								nAttributes=6;
-							};
-						};
-						class Item2
-						{
-							dataType="Logic";
-							class PositionInfo
-							{
-								position[]={6,5,6};
+								position[]={6,5,4};
 							};
 							id=2483;
 							type="fenAIS_moduleInit";
@@ -666,12 +473,12 @@ class Mission
 								nAttributes=1;
 							};
 						};
-						class Item3
+						class Item1
 						{
 							dataType="Logic";
 							class PositionInfo
 							{
-								position[]={8,5,6};
+								position[]={8,5,4};
 							};
 							id=2484;
 							type="fenAIS_moduleDefaults";
@@ -686,7 +493,7 @@ class Mission
 										class data
 										{
 											singleType="SCALAR";
-											value=0.13;
+											value=0.029999999;
 										};
 									};
 								};
@@ -771,7 +578,7 @@ class Mission
 								nAttributes=7;
 							};
 						};
-						class Item4
+						class Item2
 						{
 							dataType="Layer";
 							name="[LT] Base Modules";
@@ -1952,8 +1759,8 @@ class Mission
 										};
 										class Attribute2
 										{
-											property="ALiVE_sup_combatsupport_combatsupport_transportrespawnlimit";
-											expression="_this setVariable ['combatsupport_transportrespawnlimit',_value,true];";
+											property="ALiVE_sup_combatsupport_combatsupport_artyrespawnlimit";
+											expression="_this setVariable ['combatsupport_artyrespawnlimit',_value,true];";
 											class Value
 											{
 												class data
@@ -1965,8 +1772,8 @@ class Mission
 										};
 										class Attribute3
 										{
-											property="ALiVE_sup_combatsupport_combatsupport_artyrespawnlimit";
-											expression="_this setVariable ['combatsupport_artyrespawnlimit',_value,true];";
+											property="ALiVE_sup_combatsupport_combatsupport_transportrespawnlimit";
+											expression="_this setVariable ['combatsupport_transportrespawnlimit',_value,true];";
 											class Value
 											{
 												class data
@@ -2477,8 +2284,8 @@ class Mission
 										};
 										class Attribute2
 										{
-											property="ALiVE_sup_combatsupport_combatsupport_transportrespawnlimit";
-											expression="_this setVariable ['combatsupport_transportrespawnlimit',_value,true];";
+											property="ALiVE_sup_combatsupport_combatsupport_artyrespawnlimit";
+											expression="_this setVariable ['combatsupport_artyrespawnlimit',_value,true];";
 											class Value
 											{
 												class data
@@ -2490,8 +2297,8 @@ class Mission
 										};
 										class Attribute3
 										{
-											property="ALiVE_sup_combatsupport_combatsupport_artyrespawnlimit";
-											expression="_this setVariable ['combatsupport_artyrespawnlimit',_value,true];";
+											property="ALiVE_sup_combatsupport_combatsupport_transportrespawnlimit";
+											expression="_this setVariable ['combatsupport_transportrespawnlimit',_value,true];";
 											class Value
 											{
 												class data
@@ -3002,8 +2809,8 @@ class Mission
 										};
 										class Attribute2
 										{
-											property="ALiVE_sup_combatsupport_combatsupport_transportrespawnlimit";
-											expression="_this setVariable ['combatsupport_transportrespawnlimit',_value,true];";
+											property="ALiVE_sup_combatsupport_combatsupport_artyrespawnlimit";
+											expression="_this setVariable ['combatsupport_artyrespawnlimit',_value,true];";
 											class Value
 											{
 												class data
@@ -3015,8 +2822,8 @@ class Mission
 										};
 										class Attribute3
 										{
-											property="ALiVE_sup_combatsupport_combatsupport_artyrespawnlimit";
-											expression="_this setVariable ['combatsupport_artyrespawnlimit',_value,true];";
+											property="ALiVE_sup_combatsupport_combatsupport_transportrespawnlimit";
+											expression="_this setVariable ['combatsupport_transportrespawnlimit',_value,true];";
 											class Value
 											{
 												class data
@@ -3728,13 +3535,13 @@ class Mission
 							};
 							id=8216;
 						};
-						class Item5
+						class Item3
 						{
 							dataType="Layer";
 							name="[LT] Markers";
 							class Entities
 							{
-								items=1;
+								items=3;
 								class Item0
 								{
 									dataType="Marker";
@@ -3743,6 +3550,25 @@ class Mission
 									text="UITLEG TEKST";
 									type="Empty";
 									id=12190;
+								};
+								class Item1
+								{
+									dataType="Comment";
+									class PositionInfo
+									{
+										position[]={53.823002,5,229.39799};
+									};
+									title="Voertuigen uit ""Imperial Guard""";
+									id=12461;
+								};
+								class Item2
+								{
+									dataType="Marker";
+									position[]={160,5,303.5};
+									name="Startlocatie";
+									text="Insertion";
+									type="Astra_militarum";
+									id=12483;
 								};
 							};
 							id=12189;
@@ -3756,7 +3582,7 @@ class Mission
 					name="[LT] BLUFOR";
 					class Entities
 					{
-						items=15;
+						items=29;
 						class Item0
 						{
 							dataType="Group";
@@ -9386,6 +9212,1246 @@ class Mission
 									};
 								};
 								nAttributes=1;
+							};
+						};
+						class Item15
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={53.99752,4.8694496,134.84888};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=12467;
+							type="ML700_Avenger_BLU";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Custom";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								nAttributes=3;
+							};
+						};
+						class Item16
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={73.99752,4.8694496,134.84888};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=12469;
+							type="ML700_Avenger_BLU";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Custom";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ace_cookoff_enable";
+									expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								nAttributes=4;
+							};
+						};
+						class Item17
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={60,7.7163057,227};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=12450;
+							type="ML700_Chimera_Autocannon";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Crate Medium";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ace_cookoff_enable";
+									expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="LT_veh_respawn_ID";
+									expression="_this setVariable ['LT_veh_respawn',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=5;
+							};
+						};
+						class Item18
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={68,7.7163057,227};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=12458;
+							type="ML700_Chimera_Autocannon";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Crate Medium";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ace_cookoff_enable";
+									expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="LT_veh_respawn_ID";
+									expression="_this setVariable ['LT_veh_respawn',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=5;
+							};
+						};
+						class Item19
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={60,7.4530602,209.5};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=12452;
+							type="ML700_Leman_Autocannon";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Crate Medium";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ace_cookoff_enable";
+									expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="LT_veh_respawn_ID";
+									expression="_this setVariable ['LT_veh_respawn',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=5;
+							};
+						};
+						class Item20
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={68,7.4530602,209.5};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=12457;
+							type="ML700_Leman_Autocannon";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Crate Medium";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ace_cookoff_enable";
+									expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="LT_veh_respawn_ID";
+									expression="_this setVariable ['LT_veh_respawn',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=5;
+							};
+						};
+						class Item21
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={55.5,7.1354256,117};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=12475;
+							type="ML700_Taurox_Unarmed";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Crate Large";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ace_cookoff_enable";
+									expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="LT_veh_respawn_ID";
+									expression="_this setVariable ['LT_veh_respawn',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute5
+								{
+									property="ace_rearm_rearmCargo";
+									expression="if (_value != (if (isNumber (configOf _this >> 'ace_rearm_defaultSupply')) then {getNumber (configOf _this >> 'ace_rearm_defaultSupply')} else {(if (getAmmoCargo _this > 0) then {getAmmoCargo _this} else {-1})})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1200;
+										};
+									};
+								};
+								nAttributes=6;
+							};
+						};
+						class Item22
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={61,7.1354256,117};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=12476;
+							type="ML700_Taurox_Unarmed";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="ace_refuel_fuelCargo";
+									expression="if (_value != (_this call ace_refuel_fnc_getFuelCargo)) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=10000;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="ace_rearm_rearmCargo";
+									expression="if (_value != (if (isNumber (configOf _this >> 'ace_rearm_defaultSupply')) then {getNumber (configOf _this >> 'ace_rearm_defaultSupply')} else {(if (getAmmoCargo _this > 0) then {getAmmoCargo _this} else {-1})})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=-1;
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="LT_veh_respawn_ID";
+									expression="_this setVariable ['LT_veh_respawn',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute5
+								{
+									property="ace_cookoff_enable";
+									expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute6
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Crate Explosives";
+										};
+									};
+								};
+								nAttributes=7;
+							};
+						};
+						class Item23
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={67,7.1354256,117};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=12477;
+							type="ML700_Taurox_Unarmed";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="ace_rearm_rearmCargo";
+									expression="if (_value != (if (isNumber (configOf _this >> 'ace_rearm_defaultSupply')) then {getNumber (configOf _this >> 'ace_rearm_defaultSupply')} else {(if (getAmmoCargo _this > 0) then {getAmmoCargo _this} else {-1})})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=-1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="ace_isRepairVehicle";
+									expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {(parseNumber (getRepairCargo _this > 0))})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="LT_veh_respawn_ID";
+									expression="_this setVariable ['LT_veh_respawn',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute5
+								{
+									property="ace_cookoff_enable";
+									expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute6
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Crate Weapons";
+										};
+									};
+								};
+								nAttributes=7;
+							};
+						};
+						class Item24
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={72.5,7.1354256,117};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+							};
+							id=12478;
+							type="ML700_Taurox_Unarmed";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="ace_rearm_rearmCargo";
+									expression="if (_value != (if (isNumber (configOf _this >> 'ace_rearm_defaultSupply')) then {getNumber (configOf _this >> 'ace_rearm_defaultSupply')} else {(if (getAmmoCargo _this > 0) then {getAmmoCargo _this} else {-1})})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=-1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ace_cargo_space";
+									expression="[_this, _value] call ace_cargo_fnc_setSpace";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=25;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="LT_veh_respawn_ID";
+									expression="_this setVariable ['LT_veh_respawn',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute5
+								{
+									property="ace_cookoff_enable";
+									expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute6
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Crate Medical";
+										};
+									};
+								};
+								nAttributes=7;
+							};
+						};
+						class Item25
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={53.994606,6.9884758,163.67604};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								reportRemoteTargets=1;
+								receiveRemoteTargets=1;
+								reportOwnPosition=1;
+							};
+							id=12464;
+							type="ML700_Valkyrie_Multilas";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Crate Air";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ace_cookoff_enable";
+									expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="LT_veh_respawn_ID";
+									expression="_this setVariable ['LT_veh_respawn',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=5;
+							};
+						};
+						class Item26
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={73.994606,6.9884758,163.67604};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								reportRemoteTargets=1;
+								receiveRemoteTargets=1;
+								reportOwnPosition=1;
+							};
+							id=12465;
+							type="ML700_Valkyrie_Multilas";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Crate Air";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ace_cookoff_enable";
+									expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="LT_veh_respawn_ID";
+									expression="_this setVariable ['LT_veh_respawn',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=5;
+							};
+						};
+						class Item27
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={53.994606,6.9876828,190.95367};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								reportRemoteTargets=1;
+								receiveRemoteTargets=1;
+								reportOwnPosition=1;
+							};
+							id=12462;
+							type="ML700_Valkyrie_Transport";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Crate Air";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ace_cookoff_enable";
+									expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="LT_veh_respawn_ID";
+									expression="_this setVariable ['LT_veh_respawn',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=5;
+							};
+						};
+						class Item28
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={73.994606,6.9876828,190.95367};
+							};
+							side="Empty";
+							flags=4;
+							class Attributes
+							{
+								reportRemoteTargets=1;
+								receiveRemoteTargets=1;
+								reportOwnPosition=1;
+							};
+							id=12463;
+							type="ML700_Valkyrie_Transport";
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="LT_veh_role_ID";
+									expression="_this setVariable ['LT_veh_role',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Crate Air";
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="LT_drone_side_ID";
+									expression="_this setVariable ['LT_drone_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="ace_cookoff_enable";
+									expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=1;
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="LT_veh_side_ID";
+									expression="_this setVariable ['LT_veh_side',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="WEST";
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="LT_veh_respawn_ID";
+									expression="_this setVariable ['LT_veh_respawn',_value,true];";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								nAttributes=5;
 							};
 						};
 					};
@@ -19636,1265 +20702,6 @@ class Mission
 				};
 			};
 			id=8215;
-		};
-		class Item1
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={60,7.7163057,227};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=12450;
-			type="ML700_Chimera_Autocannon";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Crate Medium";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_cookoff_enable";
-					expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="LT_veh_respawn_ID";
-					expression="_this setVariable ['LT_veh_respawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item2
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={60,7.4530602,209.5};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=12452;
-			type="ML700_Leman_Autocannon";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Crate Medium";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_cookoff_enable";
-					expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="LT_veh_respawn_ID";
-					expression="_this setVariable ['LT_veh_respawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item3
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={68,7.4530602,209.5};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=12457;
-			type="ML700_Leman_Autocannon";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Crate Medium";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_cookoff_enable";
-					expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="LT_veh_respawn_ID";
-					expression="_this setVariable ['LT_veh_respawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item4
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={68,7.7163057,227};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=12458;
-			type="ML700_Chimera_Autocannon";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Crate Medium";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_cookoff_enable";
-					expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="LT_veh_respawn_ID";
-					expression="_this setVariable ['LT_veh_respawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item5
-		{
-			dataType="Comment";
-			class PositionInfo
-			{
-				position[]={53.823002,5,229.39799};
-			};
-			title="Voertuigen uit ""Imperial Guard""";
-			id=12461;
-		};
-		class Item6
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={53.994606,6.9876828,190.95367};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				reportRemoteTargets=1;
-				receiveRemoteTargets=1;
-				reportOwnPosition=1;
-			};
-			id=12462;
-			type="ML700_Valkyrie_Transport";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Crate Air";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_cookoff_enable";
-					expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="LT_veh_respawn_ID";
-					expression="_this setVariable ['LT_veh_respawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item7
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={73.994606,6.9876828,190.95367};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				reportRemoteTargets=1;
-				receiveRemoteTargets=1;
-				reportOwnPosition=1;
-			};
-			id=12463;
-			type="ML700_Valkyrie_Transport";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Crate Air";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_cookoff_enable";
-					expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="LT_veh_respawn_ID";
-					expression="_this setVariable ['LT_veh_respawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item8
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={53.994606,6.9884758,163.67604};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				reportRemoteTargets=1;
-				receiveRemoteTargets=1;
-				reportOwnPosition=1;
-			};
-			id=12464;
-			type="ML700_Valkyrie_Multilas";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Crate Air";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_cookoff_enable";
-					expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="LT_veh_respawn_ID";
-					expression="_this setVariable ['LT_veh_respawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item9
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={73.994606,6.9884758,163.67604};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				reportRemoteTargets=1;
-				receiveRemoteTargets=1;
-				reportOwnPosition=1;
-			};
-			id=12465;
-			type="ML700_Valkyrie_Multilas";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Crate Air";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_cookoff_enable";
-					expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="LT_veh_respawn_ID";
-					expression="_this setVariable ['LT_veh_respawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				nAttributes=5;
-			};
-		};
-		class Item10
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={53.99752,4.8694496,134.84888};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=12467;
-			type="ML700_Avenger_BLU";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Custom";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				nAttributes=3;
-			};
-		};
-		class Item11
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={73.99752,4.8694496,134.84888};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=12469;
-			type="ML700_Avenger_BLU";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Custom";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_cookoff_enable";
-					expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=0;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				nAttributes=4;
-			};
-		};
-		class Item12
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={55.5,7.1354256,117};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=12475;
-			type="ML700_Taurox_Unarmed";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Crate Large";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_cookoff_enable";
-					expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="LT_veh_respawn_ID";
-					expression="_this setVariable ['LT_veh_respawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> 'ace_rearm_defaultSupply')) then {getNumber (configOf _this >> 'ace_rearm_defaultSupply')} else {(if (getAmmoCargo _this > 0) then {getAmmoCargo _this} else {-1})})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1200;
-						};
-					};
-				};
-				nAttributes=6;
-			};
-		};
-		class Item13
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={61,7.1354256,117};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=12476;
-			type="ML700_Taurox_Unarmed";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_refuel_fuelCargo";
-					expression="if (_value != (_this call ace_refuel_fnc_getFuelCargo)) then {[_this, _value] call ace_refuel_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=10000;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> 'ace_rearm_defaultSupply')) then {getNumber (configOf _this >> 'ace_rearm_defaultSupply')} else {(if (getAmmoCargo _this > 0) then {getAmmoCargo _this} else {-1})})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=-1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="LT_veh_respawn_ID";
-					expression="_this setVariable ['LT_veh_respawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ace_cookoff_enable";
-					expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Crate Explosives";
-						};
-					};
-				};
-				nAttributes=7;
-			};
-		};
-		class Item14
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={67,7.1354256,117};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=12477;
-			type="ML700_Taurox_Unarmed";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> 'ace_rearm_defaultSupply')) then {getNumber (configOf _this >> 'ace_rearm_defaultSupply')} else {(if (getAmmoCargo _this > 0) then {getAmmoCargo _this} else {-1})})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=-1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_isRepairVehicle";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {(parseNumber (getRepairCargo _this > 0))})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="LT_veh_respawn_ID";
-					expression="_this setVariable ['LT_veh_respawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ace_cookoff_enable";
-					expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Crate Weapons";
-						};
-					};
-				};
-				nAttributes=7;
-			};
-		};
-		class Item15
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={72.5,7.1354256,117};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=12478;
-			type="ML700_Taurox_Unarmed";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> 'ace_rearm_defaultSupply')) then {getNumber (configOf _this >> 'ace_rearm_defaultSupply')} else {(if (getAmmoCargo _this > 0) then {getAmmoCargo _this} else {-1})})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=-1;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="LT_veh_side_ID";
-					expression="_this setVariable ['LT_veh_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_cargo_space";
-					expression="[_this, _value] call ace_cargo_fnc_setSpace";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=25;
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="LT_veh_respawn_ID";
-					expression="_this setVariable ['LT_veh_respawn',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="SCALAR";
-							value=1;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="LT_drone_side_ID";
-					expression="_this setVariable ['LT_drone_side',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="WEST";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ace_cookoff_enable";
-					expression="if (!_value) then {_this setVariable ['ace_cookoff_enable', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							singleType="BOOL";
-							value=1;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="LT_veh_role_ID";
-					expression="_this setVariable ['LT_veh_role',_value,true];";
-					class Value
-					{
-						class data
-						{
-							singleType="STRING";
-							value="Crate Medical";
-						};
-					};
-				};
-				nAttributes=7;
-			};
-		};
-		class Item16
-		{
-			dataType="Marker";
-			position[]={160,5,303.5};
-			name="Startlocatie";
-			text="Insertion";
-			type="Astra_militarum";
-			id=12483;
 		};
 	};
 	class Connections
