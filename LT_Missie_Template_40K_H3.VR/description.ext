@@ -22,6 +22,8 @@ Waar elke cijfer naar refereed is te vinden in de (Lowlands Tactical - Database 
 #define WEAPON_ATT 5
 #define WEAPON_SCOPE 1
 #define MISSION_TIMER 10
+#define MISSION_RESPAWNGROUP 1
+#define MISSION_RESPAWNMODE 0
 
 // PARAMETERS
 class Params
