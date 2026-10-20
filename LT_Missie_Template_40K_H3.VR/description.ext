@@ -24,6 +24,7 @@ Waar elke cijfer naar refereed is te vinden in de (Lowlands Tactical - Database 
 #define MISSION_TIMER 10
 #define MISSION_RESPAWNGROUP 1
 #define MISSION_RESPAWNMODE 0
+#define MISSION_RESPAWNTIME 120
 #define MISSION_AFK 1
 
 // PARAMETERS
